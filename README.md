@@ -1,5 +1,5 @@
 # PointNetCSPE
-Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline 6DOF Grasp Detection. The framework takes a complete object point cloud file to generate possible contact surface pairs and their robustness (a.k.a grasp dictionaries) for a parallel jaw gripper using both analytical and data-driven models.
+Combination of Contact Surface Pair Estimator (CSPE) and [PointNetGPD](https://arxiv.org/pdf/1809.06267.pdf) for Offline 6DOF Grasp Detection. The framework takes a complete object point cloud file to generate possible contact surface pairs and their robustness (a.k.a grasp dictionaries) for a parallel jaw gripper using both analytical and data-driven models.
 
 ## Table of Contents
 
@@ -63,12 +63,14 @@ Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline
 ### Quality Estimation:
 
 > **Note**
-`traib.py` receives several different arguments. Run the `--help` command to see everything it receives.
+`train.py` and `eval.py` receives several different arguments. Run the `--help` command to see everything it receives.
 
     cd ML_modules/
     python3 train.py --help
+    python3 eval.py --help
 
 ## ToDo Lists
 
-| **Work on ML pipeline** | ![Progress](https://progress-bar.dev/100) |
+| **ML pipeline** | ![Progress](https://progress-bar.dev/100) |
 | --- | --- |
+| **Documentation** | ![Progress](https://progress-bar.dev/50) |
