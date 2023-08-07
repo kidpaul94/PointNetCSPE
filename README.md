@@ -24,7 +24,8 @@ Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline
     │   ├── model
     │   └── weights 
     ├── dataset
-    |   └── train         # ML training data
+    |   ├── train         # ML training data
+    |   └── test          # ML test data
     ├── images
     ├── objects
     │   ├── dicts         # .txt grasp files
@@ -67,5 +68,5 @@ Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline
 
 ## ToDo Lists
 
-| **Work on ML pipeline** | ![Progress](https://progress-bar.dev/65) |
+| **Work on ML pipeline** | ![Progress](https://progress-bar.dev/100) |
 | --- | --- |
