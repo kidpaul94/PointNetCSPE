@@ -1,5 +1,11 @@
+<p align="center">
+<img src=./images/logo.png width=40% height=40%>
+</p>
+
 # PointNetCSPE
-Combination of Contact Surface Pair Estimator (CSPE) and [PointNetGPD](https://arxiv.org/pdf/1809.06267.pdf) for offline 6DOF grasp detection. The framework takes a complete object point cloud file to generate possible contact surface pairs and their robustness (a.k.a grasp dictionaries) for a parallel jaw gripper using both analytical and data-driven models.
+Combination of Contact Surface Pair Estimator (CSPE) and [PointNetGPD](https://github.com/lianghongzhuo/PointNetGPD) for offline 6DOF grasp detection. The framework takes a complete object point cloud file to generate possible contact surface pairs and their robustness (a.k.a grasp dictionaries) for a parallel jaw gripper using both analytical and data-driven models.
+
+The project was done while [Hojun Lee](https://www.linkedin.com/in/hjunlee94/) was working for Barton Research Group ([BRG](https://brg.engin.umich.edu/)) at the University of Michigan.
 
 ## Table of Contents
 
@@ -73,6 +79,15 @@ Combination of Contact Surface Pair Estimator (CSPE) and [PointNetGPD](https://a
     
     cd ML_modules/
     python3 eval.py --help
+
+## Citation
+
+    @inproceedings{liang2019pointnetgpd,
+    title={{PointNetGPD}: Detecting Grasp Configurations from Point Sets},
+    author={Liang, Hongzhuo and Ma, Xiaojian and Li, Shuang and G{\"o}rner, Michael and Tang, Song and Fang, Bin and Sun, Fuchun and Zhang, Jianwei},
+    booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+    year={2019}
+    }
 
 ## ToDo Lists
 
