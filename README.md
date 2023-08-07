@@ -63,10 +63,15 @@ Combination of Contact Surface Pair Estimator (CSPE) and [PointNetGPD](https://a
 ### Quality Estimation:
 
 > **Note**
-`train.py` and `eval.py` receives several different arguments. Run the `--help` command to see everything it receives.
-
+`train.py` receives several different arguments. Run the `--help` command to see everything it receives.
+    
     cd ML_modules/
     python3 train.py --help
+
+> **Note**
+`eval.py` receives several different arguments. Run the `--help` command to see everything it receives.
+    
+    cd ML_modules/
     python3 eval.py --help
 
 ## ToDo Lists
