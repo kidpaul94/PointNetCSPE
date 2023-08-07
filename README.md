@@ -6,7 +6,7 @@ Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline
 - [Repository Structure](#repository-structure)
 - [Download Process](#download-process)
 - [How to Run](#how-to-run)
-    - [CPPE_v2](#cppe_v2)
+    - [CSPE_v2](#cspe_v2)
     - [Extra Processing](#extra-processing)
     - [Quality Estimation (ML)](#quality-estimation)
 - [ToDo Lists](#todo-lists)
@@ -44,7 +44,7 @@ Combination of Contact Surface Pair Estimator (CSPE) and PointNetGPD for Offline
 
 ## How to Run
 
-### CPPE_v2:
+### CSPE_v2:
 
 > **Note**
 `CSPE_v2.py` receives several different arguments. Run the `--help` command to see everything it receives.
