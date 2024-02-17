@@ -108,9 +108,7 @@ class Engine(object):
             feature = feature.to(self.device)
             label_buf.append(label)
             label = label.to(self.device)
-            print(feature.size())
-            print(label.size())
-
+            
             pred = self.model(feature)[0]
             loss = self.criterion(pred, label)
             loss_buf.append(loss.item())
